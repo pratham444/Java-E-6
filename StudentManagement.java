@@ -7,7 +7,7 @@ class Driver {
     }
 }
 
-class StudentManagement {
+class StudentManagements {
     static Scanner sc = new Scanner(System.in);
     static ArrayList<Student> students = new ArrayList<>();
 
@@ -270,20 +270,10 @@ class Mock {
     public void display() {
         System.out.println("Technology: " + tech + " | Rating: " + rating + " | Feedback: " + feedback);
     }
+    class Requirements {
+
+        
+    }
 }
 
-class Requirement {
-    private String company;
-    private String designation;
-    private double percentage;
-
-    public Requirement(String company, String designation, double percentage) {
-        this.company = company;
-        this.designation = designation;
-        this.percentage = percentage;
-    }
-
-    public void display() {
-        System.out.println(company + " | " + designation + " | Min %: " + percentage);
-    }
-} 
+ 
